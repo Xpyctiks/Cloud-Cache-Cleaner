@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 
-from flask import Flask,render_template,render_template_string,request,make_response,redirect,url_for
+from flask import Flask,render_template,request,make_response,redirect
 import os
 import sys
-import subprocess
-import shutil
 import json
 import logging
 import logging.handlers
 import requests
-import string
 import bcrypt
 from cryptography.fernet import Fernet
 
@@ -91,7 +88,7 @@ def generate_default_config2():
         "user": {
             "Password": "",
             "Name": "Account2",
-            "Permissions": "account1"
+            "Permissions": "Account1"
         }
     }
     with open(PASSWORD_FILE, 'w',encoding='utf8') as file:
@@ -211,44 +208,48 @@ def index():
 def index2(realname,result):
     table = ""
     id = 1
+    #getting all permissions from current user as the list
+    permissions_list = [item.strip() for item in PWD_LIST[request.cookies.get("username")]['Permissions'].split(',')]
     for account in CF_ACCOUNTS:
-        headers = {
-            'Authorization': f"Bearer {account['Token']}",
-            'Content-Type':  'application/json'
-        }
-        cipher = Fernet(CRYPT_KEY)
-        url = 'https://api.cloudflare.com/client/v4/zones'
-        hash = cipher.encrypt(account['Token'].encode('utf-8')).decode('utf-8')
-        response = requests.get(url, headers=headers)    
-        if response.status_code == 200: 
-            for i in response.json()["result"]:
-                if i['status'] != "active":
-                    table += f"""\n<tr>\n<th scope="row" class="table-danger">{id}</th>
-                    <td class="table-danger"><form method="post" action="/purge"><button type="submit" id="purge" name="purge" class="btn btn-primary">Purge Cache</button>
-                    <input type="hidden" name="zoneid" value="{i['id']}">
-                    <input type="hidden" name="hash" value="{hash}"></form></td>
-                    <td class="table-danger">{i['name']}</td>
-                    <td class="table-danger">{i['status']}</td>
-                    <td class="table-danger">{i['name_servers'][0]}, {i['name_servers'][1]}</td>
-                    <td class="table-danger">{i['account']['name']}</td>
-                    <td class="table-danger">{i['id']}</td>
-                    <td class="table-danger">{i['original_registrar']}</td>
-                    <td class="table-danger">{i['plan']['name']}</td>\n</tr>"""
-                else:
-                    table += f"""\n<tr>\n<th scope="row" class="table-success">{id}</th>
-                    <td class="table-success"><form method="post" action="/purge"><button type="submit" id="purge" name="purge" class="btn btn-primary">Purge Cache</button>
-                    <input type="hidden" name="zoneid" value="{i['id']}">
-                    <input type="hidden" name="hash" value="{hash}"></form></td>
-                    <td class="table-success">{i['name']}</td>
-                    <td class="table-success">{i['status']}</td>
-                    <td class="table-success">{i['name_servers'][0]}, {i['name_servers'][1]}</td>
-                    <td class="table-success">{i['account']['name']}</td>
-                    <td class="table-success">{i['id']}</td>
-                    <td class="table-success">{i['original_registrar']}</td>
-                    <td class="table-success">{i['plan']['name']}</td>\n</tr>"""
-                id += 1
-        else:
-            print(f"Error:{response}")
+        print(f"Checking {account['Name']} in {permissions_list}")
+        if account['Name'] in permissions_list or "*" in permissions_list:
+            headers = {
+                'Authorization': f"Bearer {account['Token']}",
+                'Content-Type':  'application/json'
+            }
+            cipher = Fernet(CRYPT_KEY)
+            url = 'https://api.cloudflare.com/client/v4/zones'
+            hash = cipher.encrypt(account['Token'].encode('utf-8')).decode('utf-8')
+            response = requests.get(url, headers=headers)    
+            if response.status_code == 200: 
+                for i in response.json()["result"]:
+                    if i['status'] != "active":
+                        table += f"""\n<tr>\n<th scope="row" class="table-danger">{id}</th>
+                        <td class="table-danger"><form method="post" action="/purge"><button type="submit" id="purge" name="purge" class="btn btn-primary">Purge Cache</button>
+                        <input type="hidden" name="zoneid" value="{i['id']}">
+                        <input type="hidden" name="hash" value="{hash}"></form></td>
+                        <td class="table-danger">{i['name']}</td>
+                        <td class="table-danger">{i['status']}</td>
+                        <td class="table-danger">{i['name_servers'][0]}, {i['name_servers'][1]}</td>
+                        <td class="table-danger">{i['account']['name']}</td>
+                        <td class="table-danger">{i['id']}</td>
+                        <td class="table-danger">{i['original_registrar']}</td>
+                        <td class="table-danger">{i['plan']['name']}</td>\n</tr>"""
+                    else:
+                        table += f"""\n<tr>\n<th scope="row" class="table-success">{id}</th>
+                        <td class="table-success"><form method="post" action="/purge"><button type="submit" id="purge" name="purge" class="btn btn-primary">Purge Cache</button>
+                        <input type="hidden" name="zoneid" value="{i['id']}">
+                        <input type="hidden" name="hash" value="{hash}"></form></td>
+                        <td class="table-success">{i['name']}</td>
+                        <td class="table-success">{i['status']}</td>
+                        <td class="table-success">{i['name_servers'][0]}, {i['name_servers'][1]}</td>
+                        <td class="table-success">{i['account']['name']}</td>
+                        <td class="table-success">{i['id']}</td>
+                        <td class="table-success">{i['original_registrar']}</td>
+                        <td class="table-success">{i['plan']['name']}</td>\n</tr>"""
+                    id += 1
+            else:
+                print(f"Error:{response}")
     if result == "":
         return render_template("template-main.html",table=table,realName=realname)
     else:
@@ -264,22 +265,25 @@ def genpwd():
     quit()
 
 if __name__ == "__main__":
-    # if len(sys.argv) > 1:
-    #     if sys.argv[1] == "--help" or sys.argv[1] == "-h" or sys.argv[1] == "help":
-    #         print(f"""Usage: {sys.argv[0]} genpwd <password>
-    #         You will get the hash of the password. Add block to the user-pass.conf file in JSON format:
-    #         {{
-    #             "<username>": {{
-    #                 "realname": "<Real Name>",
-    #                 "password": "<hash you've generated>"
-    #             }}
-    #         }}""")
-    #         quit()
-    #     #if we are generating the password hash
-    #     elif sys.argv[1] == "genpwd":
-    #         genpwd()
-    #     else:
-    #         print(f"Something went wrong. Please check the parameters.")
-    #         quit()
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--help" or sys.argv[1] == "-h" or sys.argv[1] == "help":
+            print(f"""Usage: {sys.argv[0]} genpwd <password>
+            You will get the hash of the password. Add block to the user-pass.conf file in JSON format:
+            {{
+                "<username>": {{
+                    "realname": "<Real Name>",
+                    "password": "<hash you've generated>"
+                }}
+            }}""")
+            quit()
+        #if we are generating the password hash
+        elif sys.argv[1] == "genpwd":
+            genpwd()
+        #reload functions to apply changes from conf. files
+        elif sys.argv[1] == "reload":
+            load_config()
+        else:
+            print(f"Something went wrong. Please check the parameters.")
+            quit()
     load_config()
     application.run(host='0.0.0.0',port=8500,debug=False)

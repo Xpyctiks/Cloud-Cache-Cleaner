@@ -907,3 +907,402 @@ NameError: name 'true' is not defined
 24-01-2025 10:29:52 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 10:29:52] "GET / HTTP/1.1" 200 -
 24-01-2025 10:29:55 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 10:29:55] "[32mPOST /purge HTTP/1.1[0m" 301 -
 24-01-2025 10:29:57 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 10:29:57] "GET / HTTP/1.1" 200 -
+24-01-2025 13:07:19 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://172.30.224.2:8500
+24-01-2025 13:07:19 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:07:45 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://172.30.224.2:8500
+24-01-2025 13:07:45 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:08:11 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:08:11 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:08:16 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:08:16] "GET / HTTP/1.1" 200 -
+24-01-2025 13:13:04 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:13:04 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:13:42 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:13:42 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:15:05 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:15:05 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:15:11 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:15:11 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:15:36 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:15:36 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:16:11 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:16:11 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:16:39 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:16:39 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:16:56 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:16:56 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:16:57 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in index2
+    print(PWD_LIST.get('xpyct')('Permissions'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+24-01-2025 13:16:57 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:16:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:17:10 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in index2
+    print(PWD_LIST.get('xpyct')('Permissions'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+24-01-2025 13:17:10 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:17:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:17:37 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:17:37 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:18:02 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:18:02 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:20:28 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:20:28 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:21:44 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:21:44 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:22:21 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:22:21 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:24:20 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:24:20 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:26:49 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:26:49 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:27:31 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:27:31 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:32:10 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:32:10 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:32:12 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 213, in index2
+    for key,per in permissions:
+        ^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+24-01-2025 13:32:12 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:32:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:32:44 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:32:44 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:34:10 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:34:10 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:34:37 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:34:37 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:34:41 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in index2
+    permissions = PWD_LIST[request.cookies.get("username")]['Permissions'].split(',').trim()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'trim'
+24-01-2025 13:34:41 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:34:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:35:54 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:35:54 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:35:55 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in index2
+    permissions = PWD_LIST[request.cookies.get("username")]['Permissions'].split(',').stripe()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'stripe'
+24-01-2025 13:35:55 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:35:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:36:28 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:36:28 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:36:32 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 213, in index2
+    for per in permissions.stripe():
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'stripe'
+24-01-2025 13:36:32 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:36:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:39:44 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:39:44 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:39:48 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in index2
+    permissions = [item.stripe() for item in PWD_LIST[request.cookies.get("username")]['Permissions'].split(',')]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 211, in <listcomp>
+    permissions = [item.stripe() for item in PWD_LIST[request.cookies.get("username")]['Permissions'].split(',')]
+                   ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'stripe'
+24-01-2025 13:39:48 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:39:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:40:17 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:40:17 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:40:51 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:40:51 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:40:53 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 212, in index2
+    permissions = PWD_LIST[request.cookies.get("username")]['Permissions'].split(',').strip()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'strip'
+24-01-2025 13:40:53 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:40:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:41:50 - Cloud-cache-clean - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\xpyct\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 198, in index
+    return index2(request.cookies.get("realname"),"")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "Z:\Cloud-Cache-Cleaner\cloud-cache-clean.py", line 212, in index2
+    permissions = PWD_LIST[request.cookies.get("username")]['Permissions'].split(',').strip()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'strip'
+24-01-2025 13:41:50 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:41:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+24-01-2025 13:42:48 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:42:48 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:45:39 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:45:39 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:45:53 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:45:53 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:46:00 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:46:00] "GET / HTTP/1.1" 200 -
+24-01-2025 13:46:25 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:46:25] "GET / HTTP/1.1" 200 -
+24-01-2025 13:46:27 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:46:27] "GET / HTTP/1.1" 200 -
+24-01-2025 13:46:39 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:46:39 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:46:47 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:46:47] "GET / HTTP/1.1" 200 -
+24-01-2025 13:46:55 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:46:55] "GET / HTTP/1.1" 200 -
+24-01-2025 13:48:48 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:48:48 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:48:52 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:48:52] "GET / HTTP/1.1" 200 -
+24-01-2025 13:49:36 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:49:36 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:49:40 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:49:40] "GET / HTTP/1.1" 200 -
+24-01-2025 13:52:38 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:52:38 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:52:43 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:52:43] "GET / HTTP/1.1" 200 -
+24-01-2025 13:53:16 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:53:16 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
+24-01-2025 13:53:19 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:53:19] "GET / HTTP/1.1" 200 -
+24-01-2025 13:54:30 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:54:30] "GET / HTTP/1.1" 200 -
+24-01-2025 13:54:31 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:54:31] "GET / HTTP/1.1" 200 -
+24-01-2025 13:54:32 - Cloud-cache-clean - INFO - 192.168.10.2 - - [24/Jan/2025 13:54:32] "GET / HTTP/1.1" 200 -
+24-01-2025 13:58:26 - Cloud-cache-clean - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8500
+ * Running on http://192.168.10.2:8500
+24-01-2025 13:58:26 - Cloud-cache-clean - INFO - [33mPress CTRL+C to quit[0m
