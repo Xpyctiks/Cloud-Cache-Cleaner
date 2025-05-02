@@ -1,2 +1,5 @@
 *.conf
 *.local
+*.log
+*.cfg
+__pycache__
