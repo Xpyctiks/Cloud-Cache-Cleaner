@@ -3,3 +3,5 @@
 *.log
 *.cfg
 __pycache__
+*.service
+gunicorn_config.py
